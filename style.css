@@ -102,3 +102,20 @@ h2{
     font-weight: lighter;
     margin: 0;
 }
+.action{
+    display: flex;
+    background-color: #3882f6;
+    max-width: 820px;
+    margin: 70px auto;
+    color: white;
+    padding: 40px 80px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.action button{
+    border: 2px solid white;
+}
+.message{
+    font-weight: 700;
+    font-size: large;
+}
