@@ -77,3 +77,28 @@ h2{
     text-align: center;
     max-width: 150px;
 }
+.quote{
+    background-color: #e5e7eb;
+    padding: 90px 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #1F2937;
+}
+.quote>*{
+    max-width:800px;
+}
+.source{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: x-large;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
